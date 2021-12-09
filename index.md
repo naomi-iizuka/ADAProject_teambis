@@ -46,3 +46,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 <p style='text-align: justify;'> We are interested in the difference in self-confidence between men and women. Have oppression and stereotypes lead to women being less confident? If so, is this asymmetry noticeable through the way people express themselves? Furthermore, we would like to see how being a public figure such as politician, making a living by speaking in front of crowds, would influence self-confidence. Does being of a specific gender influence the percieved confidence of politicians? </p>
 
 ## Method
+
+We used the Quotebank dataset from the year 2020, **ACHANGER SELON LE DATA SET QU'ON UTILISE** which consists of quotes taken from English speaking newspaper articles and web domains, with the speaker attributed to the quote by the Quobert framework. We assigned a confidence score to speakers, using BERT text similarity to compare the quotes to a phrases taken from ["Verbal Expressions of Confidence and Doubt"](https://www.researchgate.net/publication/26877357_Verbal_Expressions_of_Confidence_and_Doubt), a psychology paper published in 2009, which rated the percieved self-confidence of speakers through their expression. 
+The personal information of quoted persons, such as their gender, birthyear and occupation was retrieved from the speaker attribute files provided by TAs. 
+
