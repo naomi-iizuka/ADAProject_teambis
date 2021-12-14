@@ -56,26 +56,29 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 ### Some statistics on the speakers:
 <p style='text-align: justify;'> 
-  Let's start by looking at the gender distribution of speakers: 
+  Let's start by looking at the gender distribution of speakers: </p>
   
   <img src = "https://user-images.githubusercontent.com/57099519/146043704-032417fc-0b6d-44a7-813b-252dbbff940f.png" alt = "gender distribution among speakers" >
-
+<p style='text-align: justify;'>
   We can see above that a vast majority of the speakers are females and males (these categories include cis-gender and unspecified females and males), even though  there are still more male than female speakers. Speakers of other genders figure in the dataset as well, but in negligeable numbers compared to the leading categories. As our analysis is mainly focused of the difference between men and women we will exclude other genders from our study. </p>
   
-<p style='text-align: justify;'> We also thought interesting to look at the age of speakers, as maturity can influence self-confidence, and common expressions change with each generation. 
+<p style='text-align: justify;'> We also thought interesting to look at the age of speakers, as maturity can influence self-confidence, and common expressions change with each generation. </p>
   
-  <img url = "https://user-images.githubusercontent.com/57099519/146066435-0893e3fb-c533-463e-81e2-e333b422b5c2.png" alt = "birth year distribution among speakers">
+  <img src = "https://user-images.githubusercontent.com/57099519/146066435-0893e3fb-c533-463e-81e2-e333b422b5c2.png" alt = "birth year distribution among speakers">
+<p style='text-align: justify;'>  
   We can see that the most speakers are from the generation 1950 and 1960. There are less speakers born before 1940 as there might not be as many alive recently, and very few speakers born after 2000, as they are still very young. 
 </p>
   
 ### Some statistics on the quotes: 
  <p style='text-align: justify;'> 
-  Not all speakers are quoted the same amount. Let's look at the distribution of quotes per speaker: 
+  Not all speakers are quoted the same amount. Let's look at the distribution of quotes per speaker: </p>
   
   INSöRER PLOT 6
+<p style='text-align: justify;'>  
   As we can see above, it's clear not all the speakers have the same representation in the media, and thus our dataset. 
-  Let's now take a look at the number of quotes by speakers of each gender: 
-  <img url = "https://user-images.githubusercontent.com/57099519/146073592-6dc073fe-d433-4c7b-9a19-97ea2fb11d15.png" alt = "number of quotes per gender">
+  Let's now take a look at the number of quotes by speakers of each gender: </p>
+  <img src = "https://user-images.githubusercontent.com/57099519/146073592-6dc073fe-d433-4c7b-9a19-97ea2fb11d15.png" alt = "number of quotes per gender">
+<p style='text-align: justify;'>  
   We can see a significant change in the distribution.
   
 </p>
