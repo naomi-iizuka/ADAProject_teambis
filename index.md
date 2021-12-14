@@ -37,6 +37,9 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
 
+# texte en justifié
+<p style='text-align: justify;'> </p>
+
 # Introduction
 ## Motivation
 <p style='text-align: justify;'> It is not news to anyone that gender inequalities persist in modern society. This is due to centuries of oppression of the "weaker sex" in western cultures, by systematically denying women political, economic and intellectual power. Women have been stereotyped as caring and nurturing by nature to be relegated to housework and childcare, while men had access to higher education and financial independence. Although Women's Rights Movements have greatly improved women's conditions, inequalities subsist. Men still occupy most positions of power, whether it be in politics or private companies. This can be explained not only by the huge difference in the number of women versus men pursuing higher education (very noticeable even at EFPL) but also by implicit bias, through which women are seen as less competent than their male counterpart. </p>
@@ -51,11 +54,29 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
   We used the Quotebank dataset from the year 2020, <b>ACHANGER SELON LE DATA SET QU'ON UTILISE</b> which consists of quotes taken from English speaking newspaper articles and web domains, with the speaker attributed to the quote by the Quobert framework. We assigned a confidence score to speakers, using BERT text similarity to compare the quotes to a phrases taken from <a href="https://www.researchgate.net/publication/26877357_Verbal_Expressions_of_Confidence_and_Doubt">"Verbal Expressions of Confidence and Doubt"</a>, a psychology paper published in 2009, which rated the percieved self-confidence of speakers through their expression. </p>
 <p style='text-align: justify;'> The personal information of quoted persons such as their gender, birthyear and occupation was retrieved from the speaker attribute files provided by TAs. </p>
 
-### Some statistics on the Speakers:
+### Some statistics on the speakers:
 <p style='text-align: justify;'> 
   Let's start by looking at the gender distribution of speakers: 
   
   <img src = "https://user-images.githubusercontent.com/57099519/146043704-032417fc-0b6d-44a7-813b-252dbbff940f.png" alt = "gender distribution among speakers" >
 
-  We can see above that a vast majority of the speakers are "females" and "males" (these categories include cis-gender and unspecified females and males), but speakers of other genders figure in our dataset as well. As our analysis is mainly focused of the difference between men and women we will exlude other genders from our study. 
-  </p>
+  We can see above that a vast majority of the speakers are females and males (these categories include cis-gender and unspecified females and males), even though  there are still more male than female speakers. Speakers of other genders figure in the dataset as well, but in negligeable numbers compared to the leading categories. As our analysis is mainly focused of the difference between men and women we will exclude other genders from our study. </p>
+  
+<p style='text-align: justify;'> We also thought interesting to look at the age of speakers, as maturity can influence self-confidence, and common expressions change with each generation. 
+  
+  <img url = "https://user-images.githubusercontent.com/57099519/146066435-0893e3fb-c533-463e-81e2-e333b422b5c2.png" alt = "birth year distribution among speakers">
+  We can see that the most speakers are from the generation 1950 and 1960. There are less speakers born before 1940 as there might not be as many alive recently, and very few speakers born after 2000, as they are still very young. 
+</p>
+  
+### Some statistics on the quotes: 
+ <p style='text-align: justify;'> 
+  Not all speakers are quoted the same amount. Let's look at the distribution of quotes per speaker: 
+  
+  INSöRER PLOT 6
+  As we can see above, it's clear not all the speakers have the same representation in the media, and thus our dataset. 
+  Let's now take a look at the number of quotes by speakers of each gender: 
+  <img url = "https://user-images.githubusercontent.com/57099519/146073592-6dc073fe-d433-4c7b-9a19-97ea2fb11d15.png" alt = "number of quotes per gender">
+  We can see a significant change in the distribution.
+  
+</p>
+
