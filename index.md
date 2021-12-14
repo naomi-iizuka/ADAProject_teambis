@@ -51,3 +51,11 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
   We used the Quotebank dataset from the year 2020, <b>ACHANGER SELON LE DATA SET QU'ON UTILISE</b> which consists of quotes taken from English speaking newspaper articles and web domains, with the speaker attributed to the quote by the Quobert framework. We assigned a confidence score to speakers, using BERT text similarity to compare the quotes to a phrases taken from <a href="https://www.researchgate.net/publication/26877357_Verbal_Expressions_of_Confidence_and_Doubt">"Verbal Expressions of Confidence and Doubt"</a>, a psychology paper published in 2009, which rated the percieved self-confidence of speakers through their expression. </p>
 <p style='text-align: justify;'> The personal information of quoted persons such as their gender, birthyear and occupation was retrieved from the speaker attribute files provided by TAs. </p>
 
+### Some statistics on the Speakers:
+<p style='text-align: justify;'> 
+  Let's start by looking at the gender distribution of speakers: 
+  
+  ![gender distribution among speakers](https://user-images.githubusercontent.com/57099519/146043704-032417fc-0b6d-44a7-813b-252dbbff940f.png)
+
+  We can see above that a vast majority of the speakers are "females" and "males" (these categories include cis-gender and unspecified females and males), but speakers of other genders figure in our dataset as well. As our analysis is mainly focused of the difference between men and women we will exlude other genders from our study. 
+  </p>
