@@ -56,6 +56,23 @@
 ### How we rate self-confidence:
 <p style='text-align: justify;'> As mentioned above, we based our metric of self-confidence on a <a href="https://www.researchgate.net/publication/26877357_Verbal_Expressions_of_Confidence_and_Doubt"> sociology study </a>, in which participants were asked to read a set of sentences, and rate the confidence of a person who would use those phrases, on a scale from 0 to 7. The table below is a subset of the findings of the study: 
 </p>
+<table>
+  <tr>
+    <th>Phrase</th>
+    <th>Score (past tense)</th>
+    <th>Score (present tense)</th>
+  </tr>
+  <tr>
+    <td>I'm not sure, it's kind of…  </td>
+    <td>Tobias</td>
+    <td>Linus</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>14</td>
+    <td>10</td>
+  </tr>
+</table>
 | Phrase      | Score (past tense)| Score (present tense) |
 | :---        |    :----:   |          ---: |
 | I'm not sure, it's kind of…  | 2.88    | 2.91 |
