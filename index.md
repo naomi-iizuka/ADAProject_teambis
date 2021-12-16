@@ -18,7 +18,8 @@
 <p style='text-align: justify;'> 
   Let's start by looking at the gender distribution of speakers: </p>
   
-  <img src = "https://user-images.githubusercontent.com/57099519/146392891-ad146f92-7faf-42d2-a50c-e33622fe0927.png" alt = "gender distribution among speakers" >
+  <img src = "https://user-images.githubusercontent.com/57099519/146407324-36aafbcd-88af-4979-b1bc-b17186b46d66.png" alt = "gender distribution among speakers" >
+
 <p style='text-align: justify;'>
   We can see above that a vast majority of the speakers are females and males (these categories include cis-gender and unspecified females and males), even though there are still more male than female speakers. Speakers of other genders figure in the dataset as well, but in negligeable numbers compared to the leading categories. (As our analysis is mainly focused of the difference between men and women we will exclude other genders from our study.) </p>
   
@@ -36,9 +37,11 @@
 <p style='text-align: justify;'>  
   As we can see above, it's clear not all the speakers have the same representation in the media, and thus our dataset. Although most speakers have less than 1000 quotes in the data set, some are quoted disproportionately.  
   Let's now take a look at the number of quotes by speakers of each gender: </p>
-  <img src = "https://user-images.githubusercontent.com/57099519/146073592-6dc073fe-d433-4c7b-9a19-97ea2fb11d15.png" alt = "number of quotes per gender">
-<p style='text-align: justify;'>  
-  We can see a significant change in the distribution.
+  <img src = 'https://user-images.githubusercontent.com/57099519/146404691-20accc2c-a576-4c3b-9db1-0654f76d1fff.png' alt = "number of quotes per gender">
   
+<p style='text-align: justify;'>  
+  We can see a significant change in the distribution. By looking at the percentage of quotes by each gender, we notice that men represent over 70% of the quotes present in our dataset, while gender minorities representation is minuscule.</p> 
+  <img src = 'https://user-images.githubusercontent.com/57099519/146407136-ed8b97ef-3c81-4fc5-82e3-06342a1c07c3.png' alt = 'percentage male vs female'>
+<p style='text-align: justify;'>
 </p>
 
