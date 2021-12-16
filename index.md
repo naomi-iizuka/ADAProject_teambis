@@ -102,11 +102,13 @@
 </p>
 
 <p style='text-align: justify;'> 
-  The are different scores associated with present tense and past tense, as it has been found that it affects percieved confidence. We searched the quotes for matches to the phrases found in the article using NLTK, and assigned the score of said phrases. We then averaged out the scores of all quotes by the same person, which gives us the estimated confidence of a speaker. 
-Below is the distribution of scores of quotes. We changed the rating system to a 0 to 1 scale, 0 being unconfident, 1 meaning the speaker sounds very confident in that quote. We can see scores range from 0.5 to 1, and most seem to be between 0.6 and 0.8. 
+  There are different scores associated with present tense and past tense, as it has been found that it affects percieved confidence. We searched the quotes for matches to the phrases found in the article using NLTK, and assigned the score of said phrases. We then averaged out the scores of all quotes by the same person, which gives us the estimated confidence of a speaker. 
+</p>
+<p style='text-align: justify;'>   
+Here is the distribution of scores of quotes:
 </p>
 
 <p align="center"> 
   <img src ="https://user-images.githubusercontent.com/57099519/146444320-132f2357-60a3-4cf4-9215-a877089be876.png" alt = "distribution of scores across quotes" height = "576"> 
 </p>
-<p style='text-align: justify;'> </p>
+<p style='text-align: justify;'> We changed the rating system to a 0 to 1 scale, 0 being unconfident, 1 meaning the speaker sounds very confident in that quote. We can see scores range from 0.5 to 1, and most seem to be between 0.6 and 0.8. </p>
