@@ -115,7 +115,7 @@ Here is the distribution of scores of quotes:
 
 # Analysis
 ## Are men more confident than women? 
-<p style='text-align: justify;'> To answer this question we compared the confidence scores of women and men. He is the distribution of scpres for men and women: b</p>
+<p style='text-align: justify;'> To answer this question we compared the confidence scores of women and men. He is the distribution of scores for men and women: </p>
 <p align="center"> insérer score men women
 </p>
 
