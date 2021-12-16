@@ -107,6 +107,6 @@ Below is the distribution of scores of quotes. We changed the rating system to a
 </p>
 
 <p align="center"> 
-  <img src ="https://user-images.githubusercontent.com/57099519/146444320-132f2357-60a3-4cf4-9215-a877089be876.png" alt = "distribution of scores across quotes"> 
+  <img src ="https://user-images.githubusercontent.com/57099519/146444320-132f2357-60a3-4cf4-9215-a877089be876.png" alt = "distribution of scores across quotes" height = "576"> 
 </p>
 <p style='text-align: justify;'> </p>
