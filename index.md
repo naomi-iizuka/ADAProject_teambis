@@ -112,3 +112,25 @@ Here is the distribution of scores of quotes:
   <img src ="https://user-images.githubusercontent.com/57099519/146444320-132f2357-60a3-4cf4-9215-a877089be876.png" alt = "distribution of scores across quotes" height = "576"> 
 </p>
 <p style='text-align: justify;'> We changed the rating system to a 0 to 1 scale, 0 being unconfident, 1 meaning the speaker sounds very confident in that quote. We can see scores range from 0.5 to 1, and most seem to be between 0.6 and 0.8. </p>
+
+# Analysis
+## Are men more confident than women? 
+<p style='text-align: justify;'> To answer this question we compared the confidence scores of women and men. He is the distribution of scpres for men and women: b</p>
+<p align="center"> insérer score men women
+</p>
+
+## Do men and women express themselves differently? 
+<p style='text-align: justify;'> Now that we've established the DIFFERENCE OU PAS, we thought to look at the most used expressions among the phrases from the sociology paper, and the difference between men and women. First the most commonly used expressions, in general: </p>
+<p align="center">
+  <img src = "https://user-images.githubusercontent.com/57099519/146449246-86fa45db-778c-450e-bc2c-8279472c70cb.png" alt = "most used expressions">
+</p>
+<p align="center"> insérer top expression men women all
+</p>
+
+## Does being a politician influence your confidence?
+<p style='text-align: justify;'> Politicians, being public figures, often have to speak in front of large crowds. This shouold obviously better their speech skills, but would they really be percieved as more confident than other people? </p>
+<p style='text-align: justify;'> To establish this, we used out subset of our data, only keeping US citizens. We then compared the scores of US Congressmen and Congresswomen to citizen. </p>
+
+<p style='text-align: justify;'> </p>
+<p align="center">
+</p>
