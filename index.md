@@ -56,6 +56,7 @@
 ### How we rate self-confidence:
 <p style='text-align: justify;'> As mentioned above, we based our metric of self-confidence on a <a href="https://www.researchgate.net/publication/26877357_Verbal_Expressions_of_Confidence_and_Doubt"> sociology study </a>, in which participants were asked to read a set of sentences, and rate the confidence of a person who would use those phrases, on a scale from 0 to 7. The table below is a subset of the findings of the study: 
 </p>
+<p align="center">
 <table>
   <tr>
     <th>Phrase</th>
@@ -64,23 +65,48 @@
   </tr>
   <tr>
     <td>I'm not sure, it's kind of…  </td>
-    <td>Tobias</td>
-    <td>Linus</td>
+    <td>2.88</td>
+    <td>2.91</td>
   </tr>
   <tr>
-    <td>16</td>
-    <td>14</td>
-    <td>10</td>
+    <td>Oh, I don't know, I suppose it's…  </td>
+    <td>2.94</td>
+    <td>3.02</td>
+  </tr>
+  <tr>
+    <td>I suppose it could be… </td>
+    <td>3.13</td>
+    <td>3.34</td>
+  </tr>
+  <tr>
+    <td>I'm guessing, but I would say it's…</td>
+    <td>2.92</td>
+    <td>3.39</td>
+  </tr>
+  <tr>
+    <td>I'm certain it's…</td>
+    <td>5.90</td>
+    <td>6.55</td>
+  </tr>
+  <tr>
+    <td>I'm positive it's…</td>
+    <td>5.96</td>
+    <td>6.57</td>
+  </tr>
+  <tr>
+    <td>I'm absolutely certain it's…</td>
+    <td>6.33</td>
+    <td>6.61</td>
   </tr>
 </table>
-| Phrase      | Score (past tense)| Score (present tense) |
-| :---        |    :----:   |          ---: |
-| I'm not sure, it's kind of…  | 2.88    | 2.91 |
-|Oh, I don't know, I suppose it's…  | 2.94       | 3.02  |
-|I suppose it could be… |3.13 |3.34 |
-|I'm guessing, but I would say it's… |2.92  |3.39|
-|I'm certain it's…|5.90 |6.55|
-|I'm positive it's…|5.96| 6.57|
-|I'm absolutely certain it's…|6.33 | 6.61 |
+</p>
+
 <p style='text-align: justify;'> 
-  The are different scores associated with present tense and past tense, as it has been found that it affects percieved confidence. We searched the quotes for matches to the phrases found in the article using NLTK, and assigned the score of said phrase. We then averaged out the scores of all quotes by the same person, which gives us the estimated confidence of a speaker. </p>
+  The are different scores associated with present tense and past tense, as it has been found that it affects percieved confidence. We searched the quotes for matches to the phrases found in the article using NLTK, and assigned the score of said phrases. We then averaged out the scores of all quotes by the same person, which gives us the estimated confidence of a speaker. 
+Below is the distribution of scores of quotes. We changed the rating system to a 0 to 1 scale, 0 being unconfident, 1 meaning the speaker sounds very confident in that quote. We can see scores range from 0.5 to 1, and most seem to be between 0.6 and 0.8. 
+</p>
+
+<p align="center"> 
+  <img src ="https://user-images.githubusercontent.com/57099519/146444320-132f2357-60a3-4cf4-9215-a877089be876.png" alt = "distribution of scores across quotes"> 
+</p>
+<p style='text-align: justify;'> </p>
