@@ -127,7 +127,10 @@
 </p>
 
 <p style='text-align: justify;'>
-  PARAGRAPHE ANALYSE </p>
+  We can see two significant peaks, which correspond to the past and present tense scores of <i><b>I think</b></i> (respectively 0.58 and 0.66). We can also note that most of the scores are between 0.575 and 0.875. Note that the minimal associated score for the confidence phrases we used was 0.42, this is why we don't observe score under this value.
+</p>
+  
+  
 
 # Analysis
 
