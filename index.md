@@ -193,7 +193,7 @@
   Let's take a look at whether that changes if we focus on either gender: </p>
   
 <p align="center">
-  <img src = 'https://user-images.githubusercontent.com/57099519/146606798-7192962c-850b-4201-a7c2-7d7e6468c60e.png' alt = 'male congress'> 
+  <img src = 'https://user-images.githubusercontent.com/57099519/146608092-70a9c4be-fb9e-4d82-9377-033e2a761b6d.png'> 
   <img src = 'https://user-images.githubusercontent.com/57099519/146606558-65fd8a09-0766-4e71-a918-0cbdcd4d1797.png' alt = 'female congress'>
 </p>
 
@@ -203,8 +203,9 @@
 <p style='text-align: justify;'> 
   Lastly, let's see if the score distribution across genders varies among Congresspeople: </p>
 
-<p align="center"> INSERER MEn vs women congress
-</p>
+<p align="center"> 
+    <img src = 'https://user-images.githubusercontent.com/57099519/146607961-ef99d44b-4d91-4957-97fa-559dae1221e6.png' alt = 'female congress'>
+
 
 # Conclusion
 
