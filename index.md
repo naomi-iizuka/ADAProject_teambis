@@ -18,7 +18,7 @@
 ## Method
 
 <p style='text-align: justify;'> 
-  We used the <a href = "https://zenodo.org/record/4277311#.Ybt4w33MK3J"> Quotebank </a> dataset from the year 2020, <b>ACHANGER SELON LE DATA SET QU'ON UTILISE</b> which consists of quotes taken from English language newspaper articles and web domains, with the speaker attributed to the quote by the Quobert framework. Our self-confidence metric is based on <a href="https://www.researchgate.net/publication/26877357_Verbal_Expressions_of_Confidence_and_Doubt">"Verbal Expressions of Confidence and Doubt"</a>, a psychology paper published in 2009, which rated the percieved self-confidence of speakers through their expression. The personal information of quoted persons such as their gender, birth year and occupation was retrieved from Wikidata. </p>
+  We used the <a href = "https://zenodo.org/record/4277311#.Ybt4w33MK3J"> Quotebank </a> dataset from the year 2020,  which consists of quotes taken from English language newspaper articles and web domains, with the speaker attributed to the quote by the Quobert framework. Our self-confidence metric is based on <a href="https://www.researchgate.net/publication/26877357_Verbal_Expressions_of_Confidence_and_Doubt">"Verbal Expressions of Confidence and Doubt"</a>, a psychology paper published in 2009, which rated the percieved self-confidence of speakers through their expression. The personal information of quoted persons such as their gender, birth year and occupation was retrieved from Wikidata. </p>
 
 ### Some statistics on the speakers:
 
@@ -31,17 +31,6 @@
   
 <p style='text-align: justify;'>
   We can see above that a vast majority of the speakers are females and males (these categories include cis-gender and unspecified females and males), even though there are still more male than female speakers. Speakers of other genders figure in the dataset as well, but in negligeable numbers compared to the leading categories. </p>
-  
-<p style='text-align: justify;'> 
-  We also thought interesting to look at the age of speakers, as maturity can influence self-confidence, and common expressions change with each generation. </p>
-  
-  <p align="center">
-  <img src = "https://user-images.githubusercontent.com/57099519/146066435-0893e3fb-c533-463e-81e2-e333b422b5c2.png" alt = "birth year distribution among speakers">
-  </p>
-  
-<p style='text-align: justify;'>  
-  We can see that the most speakers are from the generation 1950 and 1960. There are less speakers born before 1940 as there might not be as many alive recently, and very few speakers born after 2000, as they are still very young. 
-</p>
   
 ### Some statistics on the quotes: 
 
@@ -117,7 +106,7 @@
 </center>
 
 <p style='text-align: justify;'> 
-  There are different scores associated with present tense and past tense, as it has been found that it affects percieved confidence. We searched the quotes for matches to the phrases found in the article (from here on out referred to as confidence phrases) using NLTK, and assigned the score of said phrases. For quotes in which we found multiple confidence phrases, we kept the highest score. We then averaged out the scores of all quotes by the same person, which gives us the estimated confidence score of a speaker. 
+  There are different scores associated with present tense and past tense, as it has been found that it affects percieved confidence. We searched the quotes for matches to the phrases found in the article (from here on out referred to as confidence phrases) using NLTK, and assigned the score of said phrases. For quotes in which we found multiple confidence phrases, we kept the highest score. We then averaged the scores of all quotes by the same person, which gives us the estimated confidence score of a speaker. 
 </p>
 <p style='text-align: justify;'>   
   Here is the distribution of scores of quotes:
