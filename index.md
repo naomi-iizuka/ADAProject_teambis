@@ -3,7 +3,9 @@
 </p>
 
 # Introduction
+
 ## Motivation
+
 <p style='text-align: justify;'> It is not news to anyone that gender inequalities persist in modern society. This is due to centuries of oppression of the "weaker sex" in western cultures, by systematically denying women political, economic and intellectual power. Women have been stereotyped as caring and nurturing by nature to be relegated to housework and childcare, while men had access to higher education and financial independence. Although Women's Rights Movements have greatly improved women's conditions, inequalities subsist. Men still occupy most positions of power, whether it be in politics or private companies. This can be explained not only by the huge difference in the number of women versus men pursuing higher education (very noticeable even at EFPL) but also by implicit bias, through which women are seen as less competent than their male counterpart. </p>
 
 <p style='text-align: justify;'> As differential treatment and stereotypes lead to differences in self-assessment and behavior, it is no surprise that researchers have found women tend to underestimate their abilities more than men and frequently experience "Imposter Syndrome", wherein they feel as though they are not qualified for their position and fear they will be discovered as such. </p>
@@ -17,6 +19,7 @@
 <p style='text-align: justify;'> The personal information of quoted persons such as their gender, birthyear and occupation was retrieved from Wikidata. </p>
 
 ### Some statistics on the speakers:
+
 <p style='text-align: justify;'> 
   Let's start by looking at the gender distribution of speakers: </p>
   <p align="center">
@@ -34,6 +37,7 @@
 </p>
   
 ### Some statistics on the quotes: 
+
  <p style='text-align: justify;'> 
   Not all speakers are quoted the same amount. Let's look at the distribution of quotes per speaker: </p>
   <p align="center">
@@ -54,6 +58,7 @@
 </p>
 
 ### How we rate self-confidence:
+
 <p style='text-align: justify;'> As mentioned above, we based our metric of self-confidence on a <a href="https://www.researchgate.net/publication/26877357_Verbal_Expressions_of_Confidence_and_Doubt"> sociology study </a>, in which participants were asked to read a set of sentences, and rate the confidence of a person who would use those phrases, on a scale from 0 to 7, which we've converted to a 0 to 1 scale, 0 being unconfident, 1 meaning the speaker sounds very confident in that quote. The table below is a subset of the findings of the study: 
 </p>
 <center>
@@ -117,28 +122,35 @@ The distribution of scores of speakers:
 </p>
 <p align="center">
   INSERER SCORE SPEAKES
-  <a id="scores speakers">
+  <a id="scores_speakers">
 </p>
 <p style='text-align: justify;'>PARAGRAPHE ANALYSE </p>
 
 # Analysis
+
 ## Are men more confident than women? 
+
 <p style='text-align: justify;'> To answer this question we compared the confidence scores of women and men. Here is the distribution of scores for men and women: </p>
 <p align="center"> 
-  <img src = 'https://user-images.githubusercontent.com/57099519/146522878-f43a9ecc-f9a1-4a91-bf35-edebe8d9148d.png' alt = 'scores men vs women'>
-  
+  <img src = 'https://user-images.githubusercontent.com/57099519/146522878-f43a9ecc-f9a1-4a91-bf35-edebe8d9148d.png' alt = 'scores men vs women'><a>
 </p>
 
 <p style='text-align: justify;'> Confidence scores of both genders follow a similar distribution, but the peaks at around 0.58 and 0.66 are much higher among men than women. INSERER stat
 </p>
 
 ## What expressions do the speakers use?
-<p style='text-align: justify;'> Now that we've established the scores of speakers, let's take a look at what kind of phrases hide behind the values. We first looked at the most commonly used confidence phrases by speakers: </p>
+
+<p style='text-align: justify;'> 
+  Now that we've established the scores of speakers, let's take a look at what kind of phrases hide behind the values. We first looked at the most commonly used confidence phrases by speakers: </p>
 <p align="center">
   <img src = "https://user-images.githubusercontent.com/57099519/146449246-86fa45db-778c-450e-bc2c-8279472c70cb.png" alt = "most used expressions">
 </p>
-Unsurprisingly, <i><b>I think</b></i> (scores for present and past tense are 0.67 and 0.58 respectively) and <i><b>I know</b></i> (scores for present and past tense, 0.92	0.87 respectively) take the top two spots, and are used over ten thousand times each. The values also correspond to the peaks visible in the <a id="scores speakers">score distribution of speakers</a> shown previously.  
+<p style='text-align: justify;'> 
+  Unsurprisingly, <i><b>I think</b></i> (scores for present and past tense are 0.67 and 0.58 respectively) and <i><b>I know</b></i> (scores for present and past tense, 0.92	0.87 respectively) take the top two spots, and are used over ten thousand times each. The values also correspond to the peaks visible in the <a id="#scores_speakers"> score distribution of speakers </a> shown previously. 
+</p>
+
 ### Men vs. Women
+
 <p style='text-align: justify;'>
   Let's compare the expressions used by men and women: 
 </p>
@@ -148,17 +160,25 @@ Unsurprisingly, <i><b>I think</b></i> (scores for present and past tense are 0.6
 </p>
 <p style='text-align: justify;'> We can see the top 3 expressions are the same, but the fourth most used expression by men is <i><b>I'm sure</b></i> (scores present & past: 0.86,	0.79), whereas women use <i><b>I remember</b></i> (scores present & past: 0.75,	0.74) more. 
 </p>
+
 ### Which expressions should you use and which should you avoid?
+
 <p style='text-align: justify;'>As we were able to establish a confidence score of speakers, let's take a look at the expressions used by the least and most confident speakers:</p>
 <p align="center"> INSERER IMAGES MOST LEAST
 </p>
 <p style='text-align: justify;'> </p>
-## Does being a politician influence your confidence?
+
+## Does being a politician influence self-confidence?
+
 <p style='text-align: justify;'> Politicians, being public figures, often have to speak in front of large crowds. This should obviously better their speech skills, but would they really be percieved as more confident than other people? </p>
 <p style='text-align: justify;'> To establish this, we used a subset of our data, only keeping US citizens. We then compared the scores of US Congresspeople to that of citizens. </p>
 
 <p style='text-align: justify;'>First the distribution of scores of people in the US congress versus not:  </p>
-<p align="center"><img src = 'https://user-images.githubusercontent.com/57099519/146540299-7cd79c2e-b6cd-4a9c-abd8-18aebb200cc6.png' alt = 'congress distribution'>
+<p align="center">
+  <img src = 'https://user-images.githubusercontent.com/57099519/146540299-7cd79c2e-b6cd-4a9c-abd8-18aebb200cc6.png' alt = 'congress distribution'>
+</p>
 
+<p style='text-align: justify;'> </p>
+<p align="center">
 </p>
 <b> </b>
