@@ -56,16 +56,7 @@
 ### How we rate self-confidence:
 <p style='text-align: justify;'> As mentioned above, we based our metric of self-confidence on a <a href="https://www.researchgate.net/publication/26877357_Verbal_Expressions_of_Confidence_and_Doubt"> sociology study </a>, in which participants were asked to read a set of sentences, and rate the confidence of a person who would use those phrases, on a scale from 0 to 7, which we've converted to a 0 to 1 scale, 0 being unconfident, 1 meaning the speaker sounds very confident in that quote. The table below is a subset of the findings of the study: 
 </p>
-<p align="center">
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-
-table.center {
-  margin-left: auto; 
-  margin-right: auto;
-}
+<center>
 <table>
   <tr>
     <th>Phrase</th>
@@ -108,7 +99,7 @@ table.center {
     <td>0.944286</td>
   </tr>
 </table>
-</p>
+</center>
 
 <p style='text-align: justify;'> 
   There are different scores associated with present tense and past tense, as it has been found that it affects percieved confidence. We searched the quotes for matches to the phrases found in the article (from here on out referred to as confidence phrases) using NLTK, and assigned the score of said phrases. For quotes in which we found multiple confidence phrases, we kept the highest score. We then averaged out the scores of all quotes by the same person, which gives us the estimated confidence score of a speaker. 
