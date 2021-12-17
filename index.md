@@ -122,7 +122,7 @@
 <p style='text-align: justify;'>
   The distribution of scores of speakers: </p>
   
-<p id = "scores_speakers" align="center">
+<p align="center">
   <img src = 'https://user-images.githubusercontent.com/57099519/146549234-ea17ffe2-f70e-40c3-8d9c-f5ea3db72ce0.png' alt = 'speaker score'>
   CHANGER A SCORES SPEAKERS
 </p>
@@ -153,7 +153,7 @@
 </p>
 
 <p style='text-align: justify;'> 
-  Unsurprisingly, <i><b>I think</b></i> (scores for present and past tense are 0.67 and 0.58 respectively) and <i><b>I know</b></i> (scores for present and past tense, 0.92	0.87 respectively) take the top two spots, and are used over ten thousand times each. The values also correspond to the peaks visible in the <a href="#scores_speakers"> score distribution of speakers </a> shown previously. </p>
+  Unsurprisingly, <i><b>I think</b></i> (scores for present and past tense are 0.67 and 0.58 respectively) and <i><b>I know</b></i> (scores for present and past tense, 0.92	0.87 respectively) take the top two spots, and are used over ten thousand times each. The values also correspond to the peaks visible in the score distribution of speakers shown previously. </p>
 
 ### Men vs. Women
 
@@ -161,7 +161,7 @@
   Let's compare the expressions used by men and women: 
 </p>
 
-<p align="center"> <img src = 'https://user-images.githubusercontent.com/57099519/146534724-ae065289-1126-473a-8647-a398622d563c.png' alt = 'men confidence phrases'>
+<p align="center"> <img src = 'https://user-images.githubusercontent.com/57099519/146534724-ae065289-1126-473a-8647-a398622d563c.png' alt = 'men confence phrases'>
 <img src = 'https://user-images.githubusercontent.com/57099519/146534731-f5608943-f29e-4207-9ca8-36befaafb7b1.png' alt = 'women confidence phrases'>
 </p>
 <p style='text-align: justify;'> We can see the top 3 expressions are the same, but the fourth most used expression by men is <i><b>I'm sure</b></i> (scores present & past: 0.86,	0.79), whereas women use <i><b>I remember</b></i> (scores present & past: 0.75,	0.74) more. 
