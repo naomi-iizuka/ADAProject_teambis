@@ -1,24 +1,21 @@
-<p style='text-align: justify;'> </p>
-<p align="center">
-</p>
 
 # Introduction
 
 ## Motivation
 
 <p style='text-align: justify;'> 
-  It is not news to anyone that gender inequalities persist in modern society. This is due to centuries of oppression of the "weaker sex" in western cultures, by systematically denying women political, economic and intellectual power. Women have been stereotyped as caring and nurturing by nature to be relegated to housework and childcare, while men had access to higher education and financial independence. Although Women's Rights Movements have greatly improved women's conditions, inequalities subsist. Men still occupy most positions of power, whether it be in politics or private companies. This can be explained not only by the huge difference in the number of women versus men pursuing higher education (very noticeable even at EFPL) but also by implicit bias, through which women are seen as less competent than their male counterpart. </p>
+  It shouldn’t be news to anyone that gender inequalities are rife in modern society. For many centuries, women and other non-male genders have often been oppressed in western cultures. Systematically being denied political, economic and intellectual power, women have been regularly stereotyped as caring and nurturing by nature, to be necessarily relegated to housework and childcare, whilst men had ease of access to higher education and financial independence. Although Women's Rights Movements have greatly improved women's conditions, inequalities subsist today. Positions of power, be it in politics or private companies, are still mostly occupied by men, whereas women find it harder to access such opportunities. A rather striking example can be seen in the huge difference in the number of women and men pursuing higher education, such as at EFPL. Other examples are still very common and present in everyday life but such inequalities can also be transmitted via implicit bias, where women are seen as less competent than their male counterparts. </p>
 
 <p style='text-align: justify;'> 
-  As differential treatment and stereotypes lead to differences in self-assessment and behavior, it is no surprise that researchers have found women tend to underestimate their abilities more than men and frequently experience "Imposter Syndrome", wherein they feel as though they are not qualified for their position and fear they will be discovered as such. </p>
+  As differential treatment and stereotypes lead to differences in self-assessment and behavior, it is no surprise that researchers have found a worrying trend that women tend to underestimate their abilities more than men and frequently experience "Imposter Syndrome", wherein they feel as though they are not qualified for their position and fear they will be discovered as such. </p>
 
 <p style='text-align: justify;'> 
-  We are interested in the difference in self-confidence between men and women. Have oppression and stereotypes lead to women being less confident? If so, is this asymmetry noticeable through the way people express themselves? Furthermore, we would like to see how being a public figure such as politician, making a living by speaking in front of crowds, would influence self-confidence. Does being of a specific gender influence the percieved confidence of politicians? </p>
+  We are interested in the difference in self-confidence between men and women. Have oppression and stereotypes lead to women feeling less confident? If so, is this asymmetry noticeable in the way people express themselves? This analysis can be taken further and it would be interesting to see if professions could influence self-confidence. For example, could being a public figure, as politicians are, skew one’s self-confidence and do genders still play a role even in such professions? </p>
 
 ## Method
 
 <p style='text-align: justify;'> 
-  We used the <a href = "https://zenodo.org/record/4277311#.Ybt4w33MK3J"> Quotebank </a> dataset from the year 2020,  which consists of quotes taken from English language newspaper articles and web domains, with the speaker attributed to the quote by the Quobert framework. Our self-confidence metric is based on <a href="https://www.researchgate.net/publication/26877357_Verbal_Expressions_of_Confidence_and_Doubt">"Verbal Expressions of Confidence and Doubt"</a>, a psychology paper published in 2009, which rated the percieved self-confidence of speakers through their expression. The personal information of quoted persons such as their gender, birth year and occupation was retrieved from Wikidata. </p>
+  For this short study, we decided to use the <a href = "https://zenodo.org/record/4277311#.Ybt4w33MK3J"> Quotebank </a> dataset from the year 2020,  which consists of quotes taken from English language newspaper articles and web domains, with the speaker attributed to the quote by the Quobert framework. Our self-confidence metric is based on <a href="https://www.researchgate.net/publication/26877357_Verbal_Expressions_of_Confidence_and_Doubt">"Verbal Expressions of Confidence and Doubt"</a>, a psychology paper published in 2009, which rated the percieved self-confidence of speakers through their expression. The personal information of quoted persons such as their gender, birth year and occupation was retrieved from Wikidata. </p>
 
 ### Some statistics on the speakers:
 
@@ -106,7 +103,7 @@
 </center>
 
 <p style='text-align: justify;'> 
-  There are different scores associated with present tense and past tense, as it has been found that it affects percieved confidence. We searched the quotes for matches to the phrases found in the article (from here on out referred to as confidence phrases) using NLTK, and assigned the score of said phrases. For quotes in which we found multiple confidence phrases, we kept the highest score. We then averaged the scores of all quotes by the same person, which gives us the estimated confidence score of a speaker. 
+  There are different scores associated with present tense and past tense, as it has been found that it affects percieved confidence. We searched the quotes for matches to the phrases found in the article (from here on out referred to as confidence expressions) using NLTK, and assigned the score of said phrases. For quotes in which we found multiple confidence phrases, we kept the highest score. We then averaged the scores of all quotes by the same person, which gives us the estimated confidence score of a speaker. 
 </p>
 <p style='text-align: justify;'>   
   Here is the distribution of scores of quotes:
@@ -127,7 +124,7 @@
 </p>
 
 <p style='text-align: justify;'>
-  We can see two significant peaks, which correspond to the past and present tense scores of <i><b>I think</b></i> (respectively 0.58 and 0.66). We can also note that most of the scores are between 0.575 and 0.875. Note that the minimal associated score for the confidence phrases we used was 0.42, this is why we don't observe score under this value.
+  We can see two significant peaks, which correspond to the past and present tense scores of <i><b>I think</b></i> (respectively 0.58 and 0.66). We can also note that most of the scores are between 0.575 and 0.875. Note that the minimal associated score for the confidence expressions we used was 0.42, this is why we don't observe score under this value.
 </p>
   
   
@@ -171,15 +168,19 @@
 <p align="center"> <img src = 'https://user-images.githubusercontent.com/57099519/146534724-ae065289-1126-473a-8647-a398622d563c.png' alt = 'men confence phrases'>
 <img src = 'https://user-images.githubusercontent.com/57099519/146534731-f5608943-f29e-4207-9ca8-36befaafb7b1.png' alt = 'women confidence phrases'>
 </p>
-<p style='text-align: justify;'> We can see the top 3 expressions are the same, however after that the order changes slightly: the fourth most used expression by men is <i><b>I'm sure</b></i> (scores present & past: 0.86,	0.79), and the sixth one is <i><b>I remember</b></i> (scores present & past: 0.75,	0.74), whereas they are swapped in the women's ranking. The same can be said also for <i><b>I'm confident</b></i> and <i><b>I suppose</b></i>.
+<p style='text-align: justify;'> We can see the top 3 expressions are the same, however after that the order changes slightly: the fourth most used expression by men is <i><b>I'm sure</b></i> (scores present & past: 0.86,	0.79), and the sixth one is <i><b>I remember</b></i> (scores present & past: 0.75,	0.74), whereas they are swapped in the women's ranking. The same can be said also for <i><b>I'm confident</b></i> (scores present & past: 0.92,	0.87) and <i><b>I suppose</b></i>(scores present & past: 0.48,	0.45), men tending to use "I'm confident" more than women.
 </p>
 
 ### Which expressions should you use and which should you avoid?
 
 <p style='text-align: justify;'>As we were able to establish a confidence score of speakers, let's take a look at the expressions used by the least and most confident speakers:</p>
-<p align="center"> INSERER IMAGES MOST LEAST
+<p align="center"> 
+  <img src = 'https://user-images.githubusercontent.com/57099519/146614485-22f0c4e2-d6c8-4c01-8988-8eac4d4261a1.png' alt = 'most conf' >
+<img src = 'https://user-images.githubusercontent.com/57099519/146614496-c86a317e-7985-4854-8923-595f60b189bc.png' alt = 'least conf'>
 </p>
-<p style='text-align: justify;'> </p>
+<p style='text-align: justify;'> 
+  Concerning the confident speakers, we can note some changes in the order of the used confidence expressions, for example <i><b> I know</b></i> (0.92 for present, 0.87 for past) being more use than <i><b>I think </b></i> (0.67, 058). The order of most used expressions the least confident speaker is very different, confidence phrases with very high score like<i><b> I know </b></i>, <i><b> I'm sure</b></i> (0.86, 0.79), <i><b> I'm confident</b></i> (0.92, 0.87) are really less used. They also use more often confidence expressions with low score like <i><b>I guess </b></i> (0.54, 0.51) and <i><b> I suppose</b></i> (0.48, 0.45).
+                               </p>
 
 ## Does being a politician influence self-confidence?
 
@@ -211,12 +212,12 @@
 
 <p align="center"> 
     <img src = 'https://user-images.githubusercontent.com/57099519/146607961-ef99d44b-4d91-4957-97fa-559dae1221e6.png' alt = 'female congress'>
-
+<p style='text-align: justify;'> In this graph we can clearly see the distribution of Congresswomen's score seem slightly above the Congressmen's. T-test statistics (p-value = 0.0041 for one-tailed test) allow us to reject the null hypothesis (equal scores between Congressmen and Congresswomen) in favor of the alternative: Congresswomen have a higher confidence score than Congressmen.  
+</p>
 
 # Conclusion
-
-
-<p style='text-align: justify;'> </p>
+<p style='text-align: justify;'> 
+Having initially hypothesized that women would express less self-confidence than men, statistical tests showed that women’s confidence scores were significantly higher than the men’s, even though both scores follow similar distributions. This argument seems to be furthered  by our comparison between US Congressmen and US Congresswomen, where again the overwhelming and significant trend was that the women outmatched their male counterparts in terms of self-confidence.</p>
+<p style='text-align: justify;'> This rather unexpected result could be due to the fact that Quotebank only contained information from women out in the public eye. In order for these women to reach their current levels, they must necessarily have gone through testing times, some more trying than it might have been for men of the same status. Therefore, this group of women could already be more confident than most and thus not necessarily represent the wider female population. In contrast, perhaps the more facilitated access to power positions for the men means that the Quotebank subgroup is a more faithful representation of the general male population. </p>
 <p align="center">
-</p>
-<b> </b>
+
