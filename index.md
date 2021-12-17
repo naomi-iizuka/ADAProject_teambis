@@ -137,18 +137,28 @@ The distribution of scores of speakers:
 <p align="center">
   <img src = "https://user-images.githubusercontent.com/57099519/146449246-86fa45db-778c-450e-bc2c-8279472c70cb.png" alt = "most used expressions">
 </p>
-Unsurprisingly, <b>I think</b> (scores for present and past tense are 0.67 and 0.58 respectively) and <b>I know</b> (scores for present and past tense, 0.92	0.87 respectively) take the top two spots, and are used over ten thousand times each. The values also correspond to the peaks visible in the <a id="scores speakers">score distribution of speakers</a> shown previously.  
+Unsurprisingly, <i><b>I think</b></i> (scores for present and past tense are 0.67 and 0.58 respectively) and <i><b>I know</b></i> (scores for present and past tense, 0.92	0.87 respectively) take the top two spots, and are used over ten thousand times each. The values also correspond to the peaks visible in the <a id="scores speakers">score distribution of speakers</a> shown previously.  
 ### Men vs. Women
-<p style='text-align: justify;'> Now that we've established the DIFFERENCE OU PAS, we thought to look at the most used expressions among the phrases from the sociology paper, and the difference between men and women. First the most commonly used expressions, in general: </p>
-
-<p align="center"> insérer top expression men women all
+<p style='text-align: justify;'>
+  Let's compare the expressions used by men and women: 
 </p>
 
-## Does being a politician influence your confidence?
-<p style='text-align: justify;'> Politicians, being public figures, often have to speak in front of large crowds. This shouold obviously better their speech skills, but would they really be percieved as more confident than other people? </p>
-<p style='text-align: justify;'> To establish this, we used out subset of our data, only keeping US citizens. We then compared the scores of US Congressmen and Congresswomen to citizen. </p>
-
+<p align="center"> <img src = 'https://user-images.githubusercontent.com/57099519/146534724-ae065289-1126-473a-8647-a398622d563c.png' alt = 'men confidence phrases'>
+<img src = 'https://user-images.githubusercontent.com/57099519/146534731-f5608943-f29e-4207-9ca8-36befaafb7b1.png' alt = 'women confidence phrases'>
+</p>
+<p style='text-align: justify;'> We can see the top 3 expressions are the same, but the fourth most used expression by men is <i><b>I'm sure</b></i> (scores present & past: 0.86,	0.79), whereas women use <i><b>I remember</b></i> (scores present & past: 0.75,	0.74) more. 
+</p>
+### Which expressions should you use and which should you avoid?
+<p style='text-align: justify;'>As we were able to establish a confidence score of speakers, let's take a look at the expressions used by the least and most confident speakers:</p>
+<p align="center"> INSERER IMAGES MOST LEAST
+</p>
 <p style='text-align: justify;'> </p>
-<p align="center">
+## Does being a politician influence your confidence?
+<p style='text-align: justify;'> Politicians, being public figures, often have to speak in front of large crowds. This should obviously better their speech skills, but would they really be percieved as more confident than other people? </p>
+<p style='text-align: justify;'> To establish this, we used a subset of our data, only keeping US citizens. We then compared the scores of US Congresspeople to that of citizens. </p>
+
+<p style='text-align: justify;'>First the distribution of scores of people in the US congress versus not:  </p>
+<p align="center"><img src = 'https://user-images.githubusercontent.com/57099519/146540299-7cd79c2e-b6cd-4a9c-abd8-18aebb200cc6.png' alt = 'congress distribution'>
+
 </p>
 <b> </b>
