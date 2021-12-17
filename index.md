@@ -151,7 +151,7 @@
 <p style='text-align: justify;'> 
   To answer this question we compared the confidence scores of women and men. Here is the distribution of scores for men and women: </p>
 <p align="center"> 
-  <img src = 'https://user-images.githubusercontent.com/57099519/146522878-f43a9ecc-f9a1-4a91-bf35-edebe8d9148d.png' alt = 'scores men vs women'><a>
+  <img src = 'https://user-images.githubusercontent.com/57099519/146522878-f43a9ecc-f9a1-4a91-bf35-edebe8d9148d.png' alt = 'scores men vs women'>
 </p>
 
 <p style='text-align: justify;'> 
