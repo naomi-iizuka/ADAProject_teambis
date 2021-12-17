@@ -54,7 +54,7 @@
 </p>
 
 ### How we rate self-confidence:
-<p style='text-align: justify;'> As mentioned above, we based our metric of self-confidence on a <a href="https://www.researchgate.net/publication/26877357_Verbal_Expressions_of_Confidence_and_Doubt"> sociology study </a>, in which participants were asked to read a set of sentences, and rate the confidence of a person who would use those phrases, on a scale from 0 to 7. The table below is a subset of the findings of the study: 
+<p style='text-align: justify;'> As mentioned above, we based our metric of self-confidence on a <a href="https://www.researchgate.net/publication/26877357_Verbal_Expressions_of_Confidence_and_Doubt"> sociology study </a>, in which participants were asked to read a set of sentences, and rate the confidence of a person who would use those phrases, on a scale from 0 to 7, which we've converted to a 0 to 1 scale, 0 being unconfident, 1 meaning the speaker sounds very confident in that quote. The table below is a subset of the findings of the study: 
 </p>
 <p align="center">
 <table>
@@ -65,44 +65,44 @@
   </tr>
   <tr>
     <td>I'm not sure, it's kind of…  </td>
-    <td>2.88</td>
-    <td>2.91</td>
+    <td>0.411429</td>
+    <td>0.415714</td>
   </tr>
   <tr>
-    <td>Oh, I don't know, I suppose it's…  </td>
-    <td>2.94</td>
-    <td>3.02</td>
+    <td>Oh, I don't know, I suppose…  </td>
+    <td>0.42</td>
+    <td>0.431429</td>
   </tr>
   <tr>
-    <td>I suppose it could be… </td>
-    <td>3.13</td>
-    <td>3.34</td>
+    <td>I suppose… </td>
+    <td>0.477143</td>
+    <td>0.477143</td>
   </tr>
   <tr>
-    <td>I'm guessing, but I would say it's…</td>
-    <td>2.92</td>
-    <td>3.39</td>
+    <td>I'm guessing, but I would say…</td>
+    <td>0.417143</td>
+    <td>0.484286</td>
   </tr>
   <tr>
-    <td>I'm certain it's…</td>
-    <td>5.90</td>
-    <td>6.55</td>
+    <td>I'm certain…</td>
+    <td>0.842857</td>
+    <td>0.935714</td>
   </tr>
   <tr>
-    <td>I'm positive it's…</td>
-    <td>5.96</td>
-    <td>6.57</td>
+    <td>I'm positive…</td>
+    <td>0.851429</td>
+    <td>0.938571</td>
   </tr>
   <tr>
-    <td>I'm absolutely certain it's…</td>
-    <td>6.33</td>
-    <td>6.61</td>
+    <td>I'm absolutely certain…</td>
+    <td>0.904286</td>
+    <td>0.944286</td>
   </tr>
 </table>
 </p>
 
 <p style='text-align: justify;'> 
-  There are different scores associated with present tense and past tense, as it has been found that it affects percieved confidence. We searched the quotes for matches to the phrases found in the article using NLTK, and assigned the score of said phrases. We then averaged out the scores of all quotes by the same person, which gives us the estimated confidence of a speaker. 
+  There are different scores associated with present tense and past tense, as it has been found that it affects percieved confidence. We searched the quotes for matches to the phrases found in the article (from here on out referred to as confidence phrases) using NLTK, and assigned the score of said phrases. For quotes in which we found multiple confidence phrases, we kept the highest score. We then averaged out the scores of all quotes by the same person, which gives us the estimated confidence score of a speaker. 
 </p>
 <p style='text-align: justify;'>   
 Here is the distribution of scores of quotes:
@@ -112,18 +112,35 @@ Here is the distribution of scores of quotes:
   <img src ="https://user-images.githubusercontent.com/57099519/146444320-132f2357-60a3-4cf4-9215-a877089be876.png" alt = "distribution of scores across quotes" height = "576"> 
 </p>
 <p style='text-align: justify;'> We changed the rating system to a 0 to 1 scale, 0 being unconfident, 1 meaning the speaker sounds very confident in that quote. We can see scores range from 0.5 to 1, and most seem to be between 0.6 and 0.8. </p>
+<p style='text-align: justify;'>   
+The distribution of scores of speakers:
+</p>
+<p align="center">
+  INSERER SCORE SPEAKES
+  <a id="scores speakers">
+</p>
+<p style='text-align: justify;'>PARAGRAPHE ANALYSE </p>
 
 # Analysis
 ## Are men more confident than women? 
-<p style='text-align: justify;'> To answer this question we compared the confidence scores of women and men. He is the distribution of scores for men and women: </p>
-<p align="center"> insérer score men women
+<p style='text-align: justify;'> To answer this question we compared the confidence scores of women and men. Here is the distribution of scores for men and women: </p>
+<p align="center"> 
+  <img src = 'https://user-images.githubusercontent.com/57099519/146522878-f43a9ecc-f9a1-4a91-bf35-edebe8d9148d.png' alt = 'scores men vs women'>
+  
 </p>
 
-## Do men and women express themselves differently? 
-<p style='text-align: justify;'> Now that we've established the DIFFERENCE OU PAS, we thought to look at the most used expressions among the phrases from the sociology paper, and the difference between men and women. First the most commonly used expressions, in general: </p>
+<p style='text-align: justify;'> Confidence scores of both genders follow a similar distribution, but the peaks at around 0.58 and 0.66 are much higher among men than women. INSERER stat
+</p>
+
+## What expressions do the speakers use?
+<p style='text-align: justify;'> Now that we've established the scores of speakers, let's take a look at what kind of phrases hide behind the values. We first looked at the most commonly used confidence phrases by speakers: </p>
 <p align="center">
   <img src = "https://user-images.githubusercontent.com/57099519/146449246-86fa45db-778c-450e-bc2c-8279472c70cb.png" alt = "most used expressions">
 </p>
+Unsurprisingly, <b>I think</b> (scores for present and past tense are 0.67 and 0.58 respectively) and <b>I know</b> (scores for present and past tense, 0.92	0.87 respectively) take the top two spots, and are used over ten thousand times each. The values also correspond to the peaks visible in the <a id="scores speakers">score distribution of speakers</a> shown previously.  
+### Men vs. Women
+<p style='text-align: justify;'> Now that we've established the DIFFERENCE OU PAS, we thought to look at the most used expressions among the phrases from the sociology paper, and the difference between men and women. First the most commonly used expressions, in general: </p>
+
 <p align="center"> insérer top expression men women all
 </p>
 
@@ -134,3 +151,4 @@ Here is the distribution of scores of quotes:
 <p style='text-align: justify;'> </p>
 <p align="center">
 </p>
+<b> </b>
