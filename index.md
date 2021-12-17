@@ -30,7 +30,7 @@
   </p>
   
 <p style='text-align: justify;'>
-  We can see above that a vast majority of the speakers are females and males (these categories include cis-gender and unspecified females and males), even though there are still more male than female speakers. Speakers of other genders figure in the dataset as well, but in negligeable numbers compared to the leading categories. (As our analysis is mainly focused of the difference between men and women we will exclude other genders from our study.) </p>
+  We can see above that a vast majority of the speakers are females and males (these categories include cis-gender and unspecified females and males), even though there are still more male than female speakers. Speakers of other genders figure in the dataset as well, but in negligeable numbers compared to the leading categories. </p>
   
 <p style='text-align: justify;'> 
   We also thought interesting to look at the age of speakers, as maturity can influence self-confidence, and common expressions change with each generation. </p>
@@ -59,7 +59,7 @@
   <img src = 'https://user-images.githubusercontent.com/57099519/146404691-20accc2c-a576-4c3b-9db1-0654f76d1fff.png' alt = "number of quotes per gender">
   </p>
 <p style='text-align: justify;'>  
-  We can see a significant change in the distribution. By looking at the percentage of quotes by each gender, we notice that men represent over 70% of the quotes present in our dataset, while gender minorities representation is minuscule.</p> 
+  We can see a significant change in the distribution. By looking at the percentage of quotes by each gender, we notice that men represent over 70% of the quotes present in our dataset, while gender minorities representation is negligeable.. We will focus on the male and female gender from here on out. </p> 
   
   <p align="center">
   <img src = 'https://user-images.githubusercontent.com/57099519/146407136-ed8b97ef-3c81-4fc5-82e3-06342a1c07c3.png' alt = 'percentage male vs female'>
@@ -128,7 +128,7 @@
 </p>
 
 <p style='text-align: justify;'> 
-  The data set from te sociology paper did not assign scores below 0.4.  </p>
+  The data set from the sociology paper did not assign scores below 0.4, so distribution ranges from 0.4 to 1.  </p>
   
 <p style='text-align: justify;'>
   The distribution of scores of speakers: </p>
@@ -143,7 +143,7 @@
 
 # Analysis
 
-## Are men more confident than women? 
+## Which is more confident: men or women ? 
 
 <p style='text-align: justify;'> 
   To answer this question we compared the confidence scores of women and men. Here is the distribution of scores for men and women: </p>
@@ -152,7 +152,7 @@
 </p>
 
 <p style='text-align: justify;'> 
-  Confidence scores of both genders follow a similar distribution, but the peaks at around 0.58 and 0.66 are much higher among men than women. INSERER stat </p>
+  Confidence scores of both genders follow a similar distribution, but the peaks at around 0.58 and 0.66 are much higher among men than women. We peformed a bilateral t-test on the score mean, which showed there was a significant difference between men and women (p-value = 0.027). A unilateral t-test confirmed that women's score mean was higher than that of men (p-value = 0.013).  </p>
 
 ## What expressions do the speakers use?
 
@@ -208,7 +208,7 @@
 </p>
 
 <p style='text-align: justify;'> 
-  Distributions of Congressmen and Congresswomen are also smoother than their civilian counterpart. Statistic tests show significant difference in neither score means (p-values = 0.13 and 0.08, for men and women respectively).  </p>
+  Distributions of Congressmen and Congresswomen are also smoother than their civilian counterpart. Bilateral t-test show significant difference in neither score means (p-values = 0.13 and 0.08, for men and women respectively).  </p>
   
 <p style='text-align: justify;'> 
   Lastly, let's see if the score distribution across genders varies among Congresspeople: </p>
