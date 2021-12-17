@@ -144,7 +144,11 @@
 </p>
 
 <p style='text-align: justify;'> 
-  Confidence scores of both genders follow a similar distribution, but the peaks at around 0.58 and 0.66 are much higher among men than women. We peformed a bilateral t-test on the score mean, which showed there was a significant difference between men and women (p-value = 0.027). A unilateral t-test confirmed that women's score mean was higher than that of men (p-value = 0.013).  </p>
+  Confidence scores of both genders follow a similar distribution, but the peaks at around 0.58 and 0.66 are much higher among men than women. We peformed a bilateral t-test on the score mean, which showed there was a significant difference between men and women (p-value = 0.027). Since the p-value of the unilateral t-test (0.013) is less than 0.05, we reject the null hypothesis (same mean for women and men) in favo of the alternative hypothesis: women's score mean is higher than that of men.
+   </p>
+<p style='text-align: justify;'> 
+  Given social context, we would have expected women to be less confident than men, however results seem to show the opposite! We will continue our analysis by looking into expressions most commonly used by each gender.
+</p>
 
 ## What expressions do the speakers use?
 
@@ -167,7 +171,7 @@
 <p align="center"> <img src = 'https://user-images.githubusercontent.com/57099519/146534724-ae065289-1126-473a-8647-a398622d563c.png' alt = 'men confence phrases'>
 <img src = 'https://user-images.githubusercontent.com/57099519/146534731-f5608943-f29e-4207-9ca8-36befaafb7b1.png' alt = 'women confidence phrases'>
 </p>
-<p style='text-align: justify;'> We can see the top 3 expressions are the same, but the fourth most used expression by men is <i><b>I'm sure</b></i> (scores present & past: 0.86,	0.79), whereas women use <i><b>I remember</b></i> (scores present & past: 0.75,	0.74) more. 
+<p style='text-align: justify;'> We can see the top 3 expressions are the same, however after that the order changes slightly: the fourth most used expression by men is <i><b>I'm sure</b></i> (scores present & past: 0.86,	0.79), and the sixth one is <i><b>I remember</b></i> (scores present & past: 0.75,	0.74), whereas they are swapped in the women's ranking. The same can be said also for <i><b>I'm confident</b></i> and <i><b>I suppose</b></i>.
 </p>
 
 ### Which expressions should you use and which should you avoid?
