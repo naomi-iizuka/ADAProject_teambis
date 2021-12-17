@@ -136,8 +136,9 @@
 
 <p style='text-align: justify;'> 
   To answer this question we compared the confidence scores of women and men. Here is the distribution of scores for men and women: </p>
+  
 <p align="center"> 
-  <img src = 'https://user-images.githubusercontent.com/57099519/146522878-f43a9ecc-f9a1-4a91-bf35-edebe8d9148d.png' alt = 'scores men vs women'>
+  <img src = 'https://user-images.githubusercontent.com/57099519/146605430-725fd089-b624-47fc-b7cb-4e70de909e7e.png' alt = 'scores men vs women'>
 </p>
 
 <p style='text-align: justify;'> 
@@ -183,7 +184,7 @@
   First, the distribution of scores of people in the US congress versus not:  </p>
   
 <p align="center">
-  <img src = 'https://user-images.githubusercontent.com/57099519/146540299-7cd79c2e-b6cd-4a9c-abd8-18aebb200cc6.png' alt = 'congress distribution'>
+  <img src = 'https://user-images.githubusercontent.com/57099519/146605996-ae05d1a6-87a7-4029-a93d-3369d48d83a6.png' alt = 'congress distribution'>
 </p>
 
 <p style='text-align: justify;'> 
@@ -192,8 +193,8 @@
   Let's take a look at whether that changes if we focus on either gender: </p>
   
 <p align="center">
-  <img src = 'https://user-images.githubusercontent.com/57099519/146552510-1fc0c4ec-e4f5-4a16-8981-0bbf343212f6.png' alt = 'male congress'>
-  <img src = 'https://user-images.githubusercontent.com/57099519/146552522-ecf7f10f-cbdc-46e3-ad63-14e45bf2d2c7.png' alt = 'female congress'>
+  <img src = 'https://user-images.githubusercontent.com/57099519/146606798-7192962c-850b-4201-a7c2-7d7e6468c60e.png' alt = 'male congress'> 
+  <img src = 'https://user-images.githubusercontent.com/57099519/146606558-65fd8a09-0766-4e71-a918-0cbdcd4d1797.png' alt = 'female congress'>
 </p>
 
 <p style='text-align: justify;'> 
