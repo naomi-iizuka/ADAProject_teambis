@@ -18,9 +18,7 @@
 ## Method
 
 <p style='text-align: justify;'> 
-  We used the <a href = "https://zenodo.org/record/4277311#.Ybt4w33MK3J"> Quotebank </a> dataset from the year 2020, <b>ACHANGER SELON LE DATA SET QU'ON UTILISE</b> which consists of quotes taken from English language newspaper articles and web domains, with the speaker attributed to the quote by the Quobert framework. Our self-confidence metric is based on <a href="https://www.researchgate.net/publication/26877357_Verbal_Expressions_of_Confidence_and_Doubt">"Verbal Expressions of Confidence and Doubt"</a>, a psychology paper published in 2009, which rated the percieved self-confidence of speakers through their expression. </p>
-<p style='text-align: justify;'> 
-  The personal information of quoted persons such as their gender, birthyear and occupation was retrieved from Wikidata. </p>
+  We used the <a href = "https://zenodo.org/record/4277311#.Ybt4w33MK3J"> Quotebank </a> dataset from the year 2020, <b>ACHANGER SELON LE DATA SET QU'ON UTILISE</b> which consists of quotes taken from English language newspaper articles and web domains, with the speaker attributed to the quote by the Quobert framework. Our self-confidence metric is based on <a href="https://www.researchgate.net/publication/26877357_Verbal_Expressions_of_Confidence_and_Doubt">"Verbal Expressions of Confidence and Doubt"</a>, a psychology paper published in 2009, which rated the percieved self-confidence of speakers through their expression. The personal information of quoted persons such as their gender, birth year and occupation was retrieved from Wikidata. </p>
 
 ### Some statistics on the speakers:
 
@@ -121,7 +119,6 @@
 <p style='text-align: justify;'> 
   There are different scores associated with present tense and past tense, as it has been found that it affects percieved confidence. We searched the quotes for matches to the phrases found in the article (from here on out referred to as confidence phrases) using NLTK, and assigned the score of said phrases. For quotes in which we found multiple confidence phrases, we kept the highest score. We then averaged out the scores of all quotes by the same person, which gives us the estimated confidence score of a speaker. 
 </p>
-
 <p style='text-align: justify;'>   
   Here is the distribution of scores of quotes:
 </p>
@@ -131,13 +128,13 @@
 </p>
 
 <p style='text-align: justify;'> 
-  We changed the rating system to a 0 to 1 scale, 0 being unconfident, 1 meaning the speaker sounds very confident in that quote. We can see scores range from 0.5 to 1, and most seem to be between 0.6 and 0.8. </p>
+  The data set from te sociology paper did not assign scores below 0.4.  </p>
   
 <p style='text-align: justify;'>
   The distribution of scores of speakers: </p>
   
-<p align="center">
-  <img id = "scores_speakers" src = 'https://user-images.githubusercontent.com/57099519/146549234-ea17ffe2-f70e-40c3-8d9c-f5ea3db72ce0.png' alt = 'speaker score'>
+<p id = "scores_speakers" align="center">
+  <img src = 'https://user-images.githubusercontent.com/57099519/146549234-ea17ffe2-f70e-40c3-8d9c-f5ea3db72ce0.png' alt = 'speaker score'>
   CHANGER A SCORES SPEAKERS
 </p>
 
