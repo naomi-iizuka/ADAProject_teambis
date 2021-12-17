@@ -123,8 +123,7 @@
   The distribution of scores of speakers: </p>
   
 <p align="center">
-  <img src = 'https://user-images.githubusercontent.com/57099519/146549234-ea17ffe2-f70e-40c3-8d9c-f5ea3db72ce0.png' alt = 'speaker score'>
-  CHANGER A SCORES SPEAKERS
+  <img src = 'https://user-images.githubusercontent.com/57099519/146608835-da7d49a1-e67a-4427-8f4a-e87bb7a9bec3.png'>
 </p>
 
 <p style='text-align: justify;'>
