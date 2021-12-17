@@ -167,7 +167,7 @@
 </p>
 
 <p style='text-align: justify;'> 
-  Unsurprisingly, <i><b>I think</b></i> (scores for present and past tense are 0.67 and 0.58 respectively) and <i><b>I know</b></i> (scores for present and past tense, 0.92	0.87 respectively) take the top two spots, and are used over ten thousand times each. The values also correspond to the peaks visible in the <a id="#scores_speakers"> score distribution of speakers </a> shown previously. </p>
+  Unsurprisingly, <i><b>I think</b></i> (scores for present and past tense are 0.67 and 0.58 respectively) and <i><b>I know</b></i> (scores for present and past tense, 0.92	0.87 respectively) take the top two spots, and are used over ten thousand times each. The values also correspond to the peaks visible in the <a href="#scores_speakers"> score distribution of speakers </a> shown previously. </p>
 
 ### Men vs. Women
 
@@ -194,11 +194,33 @@
 <p style='text-align: justify;'> To establish this, we used a subset of our data, only keeping US citizens. We then compared the scores of US Congresspeople to that of citizens. </p>
 
 <p style='text-align: justify;'>
-  First the distribution of scores of people in the US congress versus not:  </p>
+  First, the distribution of scores of people in the US congress versus not:  </p>
   
 <p align="center">
   <img src = 'https://user-images.githubusercontent.com/57099519/146540299-7cd79c2e-b6cd-4a9c-abd8-18aebb200cc6.png' alt = 'congress distribution'>
 </p>
+
+<p style='text-align: justify;'> 
+  The distribution of scores of Congresspeople is smoother, most speakers having scores between 0.6 at 0.75, whereas the scores of normal citizens show the same peaks as prevously. Although the distribution is different, a statistic test shows there is no significant difference in score mean between the two groups (p-value = 0.75) for a 0.05 cutoff value.  </p>
+<p style='text-align: justify;'> 
+  Let's take a look at whether that changes if we focus on either gender: </p>
+  
+<p align="center">
+  <img src = 'https://user-images.githubusercontent.com/57099519/146552510-1fc0c4ec-e4f5-4a16-8981-0bbf343212f6.png' alt = 'male congress'>
+  <img src = 'https://user-images.githubusercontent.com/57099519/146552522-ecf7f10f-cbdc-46e3-ad63-14e45bf2d2c7.png' alt = 'female congress'>
+</p>
+
+<p style='text-align: justify;'> 
+  Distributions of Congressmen and Congresswomen are also smoother than their civilian counterpart. Statistic tests show significant difference in neither score means (p-values = 0.13 and 0.08, for men and women respectively).  </p>
+  
+<p style='text-align: justify;'> 
+  Lastly, let's see if the score distribution across genders varies among Congresspeople: </p>
+
+<p align="center"> INSERER MEn vs women congress
+</p>
+
+# Conclusion
+
 
 <p style='text-align: justify;'> </p>
 <p align="center">
