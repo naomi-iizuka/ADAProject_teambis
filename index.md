@@ -57,6 +57,15 @@
 <p style='text-align: justify;'> As mentioned above, we based our metric of self-confidence on a <a href="https://www.researchgate.net/publication/26877357_Verbal_Expressions_of_Confidence_and_Doubt"> sociology study </a>, in which participants were asked to read a set of sentences, and rate the confidence of a person who would use those phrases, on a scale from 0 to 7, which we've converted to a 0 to 1 scale, 0 being unconfident, 1 meaning the speaker sounds very confident in that quote. The table below is a subset of the findings of the study: 
 </p>
 <p align="center">
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
 <table>
   <tr>
     <th>Phrase</th>
